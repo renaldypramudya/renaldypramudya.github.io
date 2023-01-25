@@ -1,0 +1,216 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', serif;
+    text-align: center;
+    background-color: black;
+}
+
+h1 {
+    font-family: 'Sacramento';
+    font-size: 5.625rem;
+    color: brown;
+    margin: 0 auto 100px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: brown;
+    text-align: center;
+    font-weight: 400;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: brown;
+}
+
+p {
+    color: azure;
+    line-height: 2;
+    text-align: center;
+}
+
+hr {
+    margin: 100px auto;
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 15%;
+
+}
+
+a {
+    color: azure;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+.top-container {
+    padding-top: 100px;
+    background-color: black;
+    position: relative;
+}
+.wrapper {
+
+    display: grid;
+    place-items: center;
+}
+
+.typing-demo {
+    width: 45ch;
+    animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+}
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blink {
+    5% {
+        border-color: transparent;
+    }
+}
+.profile-sugeng {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+.sugeng {
+    width: 100%;
+}
+
+.fire {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50%;
+}
+
+.little-fire {
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+
+.little-fire2 {
+
+    position: absolute;
+    right: 100px;
+    top: 100px;
+}
+
+.mid-container {
+    background-color: black;
+    padding: 100px 0;
+}
+
+.testimonial-image {
+    margin-top: 50px;
+}
+
+.mid-crime {
+    width: 128px;
+    height: 128px;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.buku-hitam-row {
+    width: 80%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.foto1 {
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+}
+
+.foto2 {
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+
+.foto3 {
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+}
+
+.foto4 {
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+
+.des-find-us {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.btn {
+    background: #541212;
+    background-image: -webkit-linear-gradient(top, #541212, #541212);
+    background-image: -moz-linear-gradient(top, #541212, #541212);
+    background-image: -ms-linear-gradient(top, #541212, #541212);
+    background-image: -o-linear-gradient(top, #541212, #541212);
+    background-image: linear-gradient(to bottom, #541212, #541212);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffff;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+
+}
+
+.btn:hover {
+    background: #541212;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+
+.bot-container {
+    padding: 50px 0 20px;
+    background-color: #541212;
+}
+
+.cc {
+    color: azure;
+    font-size: 0.75rem;
+    padding: 20px 0;
+    margin-bottom: 0;
+}
+
+@media (max-width: 1100px) {
+    .little-fire {
+        display: none;
+    }
+    .little-fire2 {
+        display: none;
+    }
+}
